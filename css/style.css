@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+    url(../images/header.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+.welcome-text a{
+    border-radius: 35px;
+    font-size: 12px;
+    padding: 15px 25px;
+}
+.navbar-nav a{
+    margin-left: 15px;
+}
+.row .ca:hover{
+    background-color: rgb(17, 127, 230);
+    cursor: pointer;
+}
+#airelines img{
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+#airelines h4{
+    margin-bottom: 150px;
+}
+.section1 a{
+    color: black;
+}
+.coll1 a , .coll2 a ,.coll3 a{
+    color: white;
+    text-decoration: none;
+    
+}
+.coll1 li , .coll2 li , .coll3 li{
+    margin-top: 10px;
+    list-style-type: none;
+}
